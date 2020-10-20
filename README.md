@@ -1,6 +1,7 @@
-# LIFE-GAME
+# [LIFE-GAME](https://htmlpreview.github.io/?https://github.com/Morwen-S/life-game/blob/main/index.html)
 
 I've implemented Conway's Game Of Life with pure JavaScript and HTML5 Canvas.
+
 
 ## The Rules
 
