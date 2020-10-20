@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>LIFE</title>
+  <div class="content">
+    <div id="field">
+<!--      <canvas id="canvas"></canvas>-->
+    </div>
+    <div class="right-control">
+      <h1>OPTIONS</h1>
+      <div>
+        <label for="inputWidth">Width:</label>
+        <input id="inputWidth" value="80" name="width" type="number">
+      </div>
+      <div>
+        <label for="inputHeight">Height:</label>
+        <input id="inputHeight" value="60" name="height" type="number">
+      </div>
+      <div>
+        <label for="cellSize">Cell size:</label>
+        <input id="cellSize" value="12" name="cellSize" type="number">
+      </div>
+      <div>
+        <p>Configurations:</p>
+        <input type="radio" id="random-input" name="start-conf" value="random" checked>
+        <label for="random-input">Random</label><br>
+        <input type="radio" id="grid-input" name="start-conf"  value="grid">
+        <label for="grid-input">Grid</label><br>
+        <input type="radio" id="empty-input" name="start-conf"  value="empty">
+        <label for="empty-input">Empty</label><br>
+      </div>
+      <button id="createBtn">CREATE FIELD</button>
+      <div>
+        <label for="inputSpeed">Speed (step/ms):</label>
+        <input id="inputSpeed" value="50" name="speed" type="number">
+      </div>
+      <div>
+        <label for="inputGen">Steps before stop:</label>
+        <input id="inputGen" value="50" name="stopGen" type="number">
+      </div>
+      <button id="startBtn">START</button>
+      <div>
+        <p>Step №: <span id="stepCount">1</span></p>
+      </div>
+      <div>
+        <p>Alive cells: <span id="aliveCount"></span></p>
+      </div>
+    </div>
+  </div>
+  <div id="footer">
+    <span>Made by Butina.S (2020) <a href="https://github.com/Morwen-S?tab=repositories">GitHub</a></span>
+  </div>
+  <script src="index.js"></script>
+</head>
+<body>
+
+</body>
+</html>

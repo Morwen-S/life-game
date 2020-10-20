@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-size: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+div {
+  border: darkgrey 1px solid;
+}
+
+.content {
+  width: 100%;
+  height: 98%;
+  display: flex;
+}
+
+.right-control {
+  font-size: 14px;
+  padding: 10px;
+  flex: 2;
+}
+
+.right-control > div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2px 0 2px 0;
+  padding: 5px;
+}
+
+.right-control > h1 {
+  padding: 5px 0 10px 0;
+}
+
+label {
+  width: 40%;
+  padding-right: 5px;
+}
+
+input {
+  height: 25px;
+  padding: 2px;
+  width: 100%;
+}
+
+button {
+  width: 100%;
+  height: 30px;
+  margin: 15px 0 15px 0;
+  font-weight: 600;
+}
+
+#stepCount {
+  margin: 0 5px 0 5px;
+  font-weight: 600;
+}
+
+#aliveCount {
+  margin: 0 5px 0 5px;
+  font-weight: 600;
+}
+
+#field {
+  font-family: Lucida Console, Courier, monospace;
+  font-size: 11px;
+  flex: 6;
+  height: auto;
+  overflow: auto;
+  padding: 5px;
+}
+
+#footer {
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 12px;
+  color: grey;
+}
